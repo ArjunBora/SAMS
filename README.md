@@ -1,23 +1,33 @@
-# Face Recognition Based Attendance System
+# Smart Attendance Management System for Anganwadi Workers
 
-This project is a face recognition-based attendance system that uses OpenCV and Python. The system uses a camera to capture images of individuals and then compares them with the images in the database to mark attendance.
+An IoT-based, smart digital solution designed to streamline operations, enhance transparency, and improve accountability in Anganwadi Centres. The system uses facial recognition for attendance, ensures accurate ration distribution, and enables efficient supervisor reporting—all through an intuitive web dashboard.
+This project focuses on building a scalable and user-centric system for managing the daily operations of Anganwadi Centres using Raspberry Pi, AI camera modules, and Python-based automation.
+The system ensures transparency and accuracy in attendance logging, ration distribution, and supervisor reporting, while supporting offline functionality with real-time synchronization when the internet is available.
 
-## Installation
+## Key Features
 
-1. Clone the repository to your local machine. ``` git clone https://github.com/Arijit1080/Face-Recognition-Based-Attendance-System ```
-2. Install the required packages using ```pip install -r requirements.txt```.
-3. Download the dlib models from https://drive.google.com/drive/folders/12It2jeNQOxwStBxtagL1vvIJokoz-DL4?usp=sharing and place the data folder inside the repo
+1. Facial Recognition for Attendance
 
-## Usage
+Automated facial recognition using OpenCV and dlib for workers, helpers, and children.
+Data is captured and processed via an AI camera module connected to Raspberry Pi.
+Prevents fraudulent attendance entries.
 
-1. Collect the Faces Dataset by running ``` python get_faces_from_camera_tkinter.py``` .
-2. Convert the dataset into ```python features_extraction_to_csv.py```.
-3. To take the attendance run ```python attendance_taker.py``` .
-4. Check the Database by ```python app.py```.
+2. Ration Optimization
 
+Tracks real-time attendance data to optimize ration distribution.
+Minimizes discrepancies and curbs ration misuse.
+Stores and syncs data using MongoDB, supporting offline and online modes.
 
-## Contributing
+4. Web Dashboard Interface
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue if you find any bugs or have any suggestions.
+Built with CustomTkinter for an interactive and full-screen UI.
+Provides real-time status updates for each operational script.
+Options to:
+Run the entire process (from facial data capturing to attendance logging).
+Directly initiate the attendance logging process.
 
+5. Offline Functionality
+
+Supports data operations even in regions with limited connectivity.
+Automatically syncs data to SQLite when internet access is restored.
 
