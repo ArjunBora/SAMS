@@ -1,18 +1,17 @@
-sudo apt-get update
-sudo apt-get upgrade
+THE LIBRARIES AND PACKAGES TO INSTALL AND SETUP IN RASPBERRY PI
+
 sudo apt install python3-venv
 sudo apt-get install python3-numpy
 sudo apt-get install python3-opencv
 sudo apt-get install build-essential cmake
 sudo apt-get install libgtk-3-dev
 sudo apt-get install libboost-all-dev
-git clone https://github.com/Arijit1080/Face-Recognition-Based-Attendance-System.git
 
 download zip file - https://drive.google.com/drive/folders/12It2jeNQOxwStBxtagL1vvIJokoz-DL4
 extract zip file to SAMS folder
 
-python3.11 -m venv --system-site-packages loli_cv
-source loli_cv/bin/activate
+python3.11 -m venv --system-site-packages (NAMED FOLDER)
+source (NAMED FOLDER)/bin/activate
 pip install setuptools
 pip install wheel
 pip install dlib
@@ -25,5 +24,3 @@ pip install picamera2
 pip install customtkinter
 
 import packages to SAMS folder
-
-modify the entry, attendance, GUI (Graphical User Interface) files.
