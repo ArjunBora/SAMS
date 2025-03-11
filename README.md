@@ -31,5 +31,9 @@ Directly initiate the attendance logging process.
 Supports data operations even in regions with limited connectivity.
 Automatically syncs data to SQLite when internet access is restored.
 
-# Documentation
+## Documentation
 https://github.com/ArjunBora/SAMS-for-Anganwadi-management/blob/main/Anganwadi%20Centre%20Management%20System.docx
+
+## Video
+Running the program on the Raspberry Pi OS, which is Linux compatible
+https://youtu.be/PPci1tRa728
