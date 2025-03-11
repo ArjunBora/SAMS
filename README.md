@@ -18,7 +18,7 @@ Tracks real-time attendance data to optimize ration distribution.
 Minimizes discrepancies and curbs ration misuse.
 Stores and syncs data using MongoDB, supporting offline and online modes.
 
-4. Web Dashboard Interface
+3. Web Dashboard Interface
 
 Built with CustomTkinter for an interactive and full-screen UI.
 Provides real-time status updates for each operational script.
@@ -26,7 +26,7 @@ Options to:
 Run the entire process (from facial data capturing to attendance logging).
 Directly initiate the attendance logging process.
 
-5. Offline Functionality
+4. Offline Functionality
 
 Supports data operations even in regions with limited connectivity.
 Automatically syncs data to SQLite when internet access is restored.
