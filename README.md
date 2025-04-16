@@ -1,6 +1,6 @@
 # Smart Attendance Management System
 
-An IoT-based, smart digital solution designed to streamline operations, enhance transparency, and improve accountability in Anganwadi Centres. The system uses facial recognition for attendance, ensures and enables efficient supervisor reporting—all through an intuitive web dashboard.
+An IoT-based, smart digital solution designed to streamline operations, enhance transparency, and improve accountability in Working sites (which includes - mining, oil refineries, etc.) . The system uses facial recognition for attendance, ensures and enables efficient supervisor reporting—all through an intuitive web dashboard.
 This project focuses on building a scalable and user-centric system for managing the daily operations of on-site Refinaries and rigs using Raspberry Pi, AI camera modules, and Python-based automation.
 The system ensures transparency and accuracy in attendance logging and supervisor reporting, while supporting offline functionality with real-time synchronization when the internet is available.
 
